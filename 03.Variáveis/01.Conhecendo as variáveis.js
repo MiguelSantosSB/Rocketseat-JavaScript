@@ -19,4 +19,3 @@ clima = "Frio"
 console.log(clima)
 
 const dia = 21
-
