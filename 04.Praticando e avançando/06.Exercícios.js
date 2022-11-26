@@ -1,26 +1,26 @@
-//1
+// // 1
 
-let weight
+// let weight
 
-//2
+// // 2
 
-console.log(typeof weight)
+// console.log(typeof weight)
 
-//3
+// // 3
 
-let name, age, stars, isSubscribed
-    name = 'john'
-    age = 26
-    stars = 23.5
-    isSubscribed = true
+// let name, age, stars, isSubscribed
+//     name = 'john'
+//     age = 26
+//     stars = 23.5
+//     isSubscribed = true
 
-//4
+// // 4
 
-var studant = {}
+// var studant = {}
 
-console.log(typeof studant)
+// console.log(typeof studant)
 
-//4.2
+// // 4.2
 
 var studant = {
     name: 'john',
@@ -30,10 +30,42 @@ var studant = {
 
 // console.log(`${studant.name} tem  ${studant.age} de idade e pesa ${studant.weight} kg.`)
 
-//5
+// 5
 
-const students = []
+let students = []
 
 // console.log(typeof students)
 
-//6
+// 6
+
+students = [
+    studant
+]
+
+// console.log(students)
+
+// 7
+
+// console.log(students[0])
+
+// 8
+
+let studant1 = {
+    name: "Malok",
+    age: 25,
+    weight: 76.4
+}
+
+// students = [
+//     studant,
+//     studant1
+// 
+
+students[1] = studant1
+
+// console.log(students)
+
+// 9
+
+console.log(a)
+var a = 1
